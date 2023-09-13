@@ -1,3 +1,26 @@
+@font-face {
+	font-family: 'Arizonasans';
+	src: url('../fonts/ABCArizonaSans-Light-Trial.woff2') format('woff2');
+	font-weight: light;
+  }
+  
+  @font-face {
+	font-family: 'Arizonasans';
+	src: url('../fonts/ABCArizonaSans-Medium-Trial.woff2') format('woff2');
+	font-weight: medium;
+  }
+
+  @font-face {
+	font-family: 'Arizonaserif';
+	src: url('../fonts/ABCArizonaSerif-Light-Trial.woff2') format('woff2');
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: 'Arizonaserif';
+	src: url('../fonts/ABCArizonaSerif-LightItalic-Trial.woff2') format('woff2');
+	font-style: italic;
+  }
 /**************/
 /* CSS REMEDY */
 /**************/
