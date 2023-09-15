@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://mocomuseum.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/scherm1.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/scherm2.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -59,7 +59,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
   - Zijn meerdere H1's in bestaande website
   - De H1 is ook niet meer te lezen met de screenreader als je hem klein maakt.
-  - 
+  - Geen nette html
+  - Nav staat onderaan en die pakt de screenreader ook niet meteen
+
 
 </details>
 
@@ -87,18 +89,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vond het nestelen van de elementen lastig van de HTML. Maar na een ruwe opzet heb ik daar al hulp bij gekregen en kan ik nu goed verder. De opdrachten in de les gaan eigenlijk best wel goed. Het toepassen op de site wordt uitdagend maar leuk. Daar is natuurlijk geen stappenplan voor, helaas.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Karlijn        |          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
+Karlijn:
+Wanneer afbeelding in html en wanneer is CSS
 
+Joost:
+mag een <h2> in een <a>?
+wanneer svg en wanneer een button?
+mag een <ul> in een <ul>?
+wat zijn handige volgordes van  <img> <p> <h2> enz.?
+
+Tygo:
+werkt een aside laten uit en inschuiven hetzelfde als de menu opdracht?
+hoe maak ik een dropdown menu die alle onderstaande content verder omlaag duwt?
+hoe zorg ik ervoor dat ( checkbox ) filters zich daadwerkelijk toepassen op de artikelen die de website mij zal tonen?
+hoe zorg ik dat het stuk tekst dat zegt hoeveel resultaten er gevonden zijn zich aanpast afhankelijk van het aantal resultaten?
+
+Annika:
+Hamburger menu en werking
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
