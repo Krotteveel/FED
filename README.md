@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
@@ -94,37 +94,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  Karlijn:
+  Wanneer afbeelding in html en wanneer is CSS
 
-  | Karlijn        |          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-Karlijn:
-Wanneer afbeelding in html en wanneer is CSS
+  Joost:
+  mag een <h2> in een <a>?
+  wanneer svg en wanneer een button?
+  mag een <ul> in een <ul>?
+  wat zijn handige volgordes van  <img> <p> <h2> enz.?
 
-Joost:
-mag een <h2> in een <a>?
-wanneer svg en wanneer een button?
-mag een <ul> in een <ul>?
-wat zijn handige volgordes van  <img> <p> <h2> enz.?
+  Tygo:
+  werkt een aside laten uit en inschuiven hetzelfde als de menu opdracht?
+  hoe maak ik een dropdown menu die alle onderstaande content verder omlaag duwt?
+  hoe zorg ik ervoor dat ( checkbox ) filters zich daadwerkelijk toepassen op de artikelen die de website mij zal tonen?
+  hoe zorg ik dat het stuk tekst dat zegt hoeveel resultaten er gevonden zijn zich aanpast afhankelijk van het aantal resultaten?
 
-Tygo:
-werkt een aside laten uit en inschuiven hetzelfde als de menu opdracht?
-hoe maak ik een dropdown menu die alle onderstaande content verder omlaag duwt?
-hoe zorg ik ervoor dat ( checkbox ) filters zich daadwerkelijk toepassen op de artikelen die de website mij zal tonen?
-hoe zorg ik dat het stuk tekst dat zegt hoeveel resultaten er gevonden zijn zich aanpast afhankelijk van het aantal resultaten?
-
-Annika:
-Hamburger menu en werking
+  Annika:
+  Hamburger menu en werking
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Als img een betekenis heeft of inhoudelijk waarde, dan in html. Saaie achtergrond afbeelding -> css.
+  - Z-index gebruiken voor lagen
+  - Kevin Powell flex box vs grid kijken
+  -
 
 </details>
 
@@ -134,7 +127,7 @@ Hamburger menu en werking
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -142,13 +135,9 @@ Hamburger menu en werking
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  - rand rechts
+  - afbeelding door
+  - positionering tekst
 
 
   ### Verslag van meeting
