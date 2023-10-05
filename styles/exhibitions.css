@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    /* position: absolute; */
+}
+
+section ul {
+    display: flex;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior: contain auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+section ul li {
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+
+}
+
+section ul li img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+ul li div {
+    position: relative;
+    z-index: 75;
+    display: block;
+}

@@ -174,17 +174,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  - Gradient op section krijgen. (karlijn)
+  - Hoe maak ik mijn nav zo dat hij alleen te zien is als je naar boven scrolt (joost)
+  - Hoe maak ik een filter menu die functioneerd als overlay? (tygo)
+  - Hoe zorg ik dat het sorteren op bmw serie net zo werkt als op de voorbeeld site (met animatie, donkere achtergrond etc)?(tygo)
+  - Is het noodzakelijk voor mij om het informatie tabje uit te werken bij de modellen? Ook met volledige overlay?(tygo)
+  - Hoe maak ik een vergelijkbare overlay voor de detail pop up van een auto model?(tygo)
+  - Hoe maak ik het toegankelijker met leesbaarheid? (karlijn)
+  - Hoe kan ik met een button(en toggle) de img veranderen? is een formulier toevoegen ook een goed ding voor de surface plane? (annika)
 
 
   ### Verslag van meeting

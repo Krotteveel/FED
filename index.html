@@ -8,23 +8,24 @@
 
 	<title>Homepage Moco</title>
 	<link href="./styles/style.css" rel="stylesheet">
+	<link href="./styles/main.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
 </head>
 
 <body>
 	<header>
 		<nav>
-			<a href=""><img src="./images/Logo.svg" alt=""></a>
+			<a href=""><img src="./images/Logo.svg" alt="logo van Moco"></a>
 			<select name="taal" id="taal-select">
-				<option value="Engels">En</option>
-				<option value="Nederlands">Nl</option>
+				<option selected value="Engels">En</option>
+				<option value="Nederlands">🇾🇪 Nl</option>
 			</select>
 			<a href="">Tickets</a>
 		</nav>
 		<nav>
 			<ul>
 				<li><a class="active" href="index.html">Home</a></li>
-				<li><a href="#">Exhibitions</a></li>
+				<li><a href="exhibitions.html">Exhibitions</a></li>
 				<li><a href="#">About<span> Moco</span></a></li>
 				<li><a href="#"><span>Visit & </span>contact</a></li>
 			</ul>
@@ -40,11 +41,12 @@
 				<h2>The World of Moco</h2>
 				<p>Iconic works by celebrated modern and contemporaty artists and rising stars.</p>
 			</div>
-			<video autoplay loop muted>
+			<video id="background-video" autoplay loop muted>
 				<source
 					src="https://assets.mocomuseum.com/videos_prod/Cut-Version-Moco-GRADED-REV5-Rothko-beeld-en-VO-verwijderd-1-1.mp4"
 					type="video/mp4">
 			</video>
+			<button aria-label="video pauzeren" id="pause-button">▶︎</button>
 		</section>
 
 		<section>
@@ -52,7 +54,7 @@
 				<div>
 					<h2><em>Ons museum</em> Travellers' Choice 2023</h2>
 					<p>Read more<span class="visuallyhidden"> about the Travellers Choice 2023</span></p>
-					<a href=“”></a>
+
 				</div>
 				<img src="./images/Travellerschoice.webp"
 					alt="Photo of the Travellers choice tripadvisors logo with a bright background colours">
@@ -60,6 +62,7 @@
 		</section>
 
 		<section>
+
 			<a href=“#”>
 				<div>
 					<h2><em>Ons museum</em>The Big Disruption: WIll NFTs Change Art Forever?</h2>
@@ -69,6 +72,7 @@
 				<img src="./images/MH_-_Mars_-_Collector_s_Edition_LQ_-_330MB_ivkyse-2-mp41673616478_2023-01-13-132758_bqod.webp"
 					alt="Photo of yellow and greenisch sand moving">
 			</a>
+
 		</section>
 
 		<section>
@@ -76,7 +80,7 @@
 				<div>
 					<h2><em>Ons museum</em>Girl with Balloon</h2>
 					<p>Read more<span class="visuallyhidden">Girl with Balloon</span></p>
-					<a href=“#”></a>
+
 				</div>
 				<img src="./images/GirlwithBalloon_Cover.webp"
 					alt="Photo of a girl that is stretching out her arm for a red balloon with 20 on it.">

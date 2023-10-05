@@ -31,11 +31,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-color: blue;
-	color: var(--color-text);
-	margin: 0;
-}
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -46,9 +41,9 @@ body {
 	--link-visited-color: #f51cca;
 }
 
-img {
+/* img {
 	max-width: 100%;
-}
+} */
 
 .visuallyhidden {
 	clip: rect(0 0 0 0);
@@ -74,7 +69,16 @@ header {
 	left: 0;
 }
 
+select {
+	font: inherit;
+}
 
+@media (prefers-color-scheme: dark) {
+
+	img {
+		filter: brightness(.5);
+	}
+}
 
 /****************/
 /* NAV boven */
@@ -119,8 +123,8 @@ header nav:nth-of-type(2) ul {
 	padding: 0.8em;
 	max-width: 100%;
 	margin: 0;
-	background-image: linear-gradient(rgb(0 0 0 / 0.2), rgba(0 0 0 / 1));
 
+	background-image: linear-gradient(rgb(0 0 0 / 0), rgba(0 0 0 / 1));
 }
 
 header nav ul li {
@@ -163,118 +167,4 @@ header nav ul li a:focus-visible {
 header nav ul li a.active {
 	color: var(--link-visited-color);
 	text-decoration: underline;
-}
-
-/* MAIN */
-
-
-
-main {
-	scroll-snap-type: y mandatory;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 100dvh;
-	overflow-y: auto;
-}
-
-
-
-
-
-/****************/
-/* section 1*/
-/****************/
-
-section:nth-of-type(1) video {
-	position: fixed;
-
-	top: 0;
-	left: 0;
-	/* right: 1em; */
-
-	object-fit: cover;
-	width: 100%;
-	height: 100vh;
-	/* object-position: 60% center; */
-	/* display: none; */
-}
-
-main>section:nth-of-type(1) div {
-	position: fixed;
-	z-index: 50;
-	/* inset: 0; */
-	top: 0;
-	left: 0;
-	/* background-color: red; */
-
-	width: 100%;
-	height: 100dvh;
-
-	pointer-events: none;
-
-	display: grid;
-	place-content: center;
-	place-items: center;
-
-}
-
-
-
-/* alle sections */
-
-main>section {
-	position: relative;
-	scroll-snap-align: center;
-	width: 100%;
-	height: 100vh;
-	flex-shrink: 0;
-
-	z-index: 75;
-}
-
-main>section:not(:nth-of-type(1)) div {
-	position: absolute;
-	bottom: 3em;
-	left: 2em;
-	z-index: 100;
-	width: min(calc(100% - 4em), 24em);
-}
-
-main>section>img {
-	position: relative;
-	height: 100%;
-	width: 100%;
-
-	object-fit: cover;
-}
-
-main>section:not(:nth-of-type(1)) a {
-	text-decoration: none;
-}
-
-main>section:not(:nth-of-type(1)) h2 {
-	color: var(--color-text);
-
-
-}
-
-
-
-main>section:not(:nth-of-type(1)) p {
-	color: var(--color-text);
-
-
-}
-
-em {
-	display: block;
-}
-
-@media (max-width: 455px) {
-	main>section:nth-of-type(3) img {
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
-	}
 }
