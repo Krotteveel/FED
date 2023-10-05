@@ -41,4 +41,28 @@ ul li div {
     position: relative;
     z-index: 75;
     display: block;
+    text-align: center;
+}
+
+em {
+    display: block;
+    font-style: normal;
+    text-transform: lowercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+div a {
+    padding: 0.5em;
+    margin: 0.7em;
+    background-color: var(--knop-color);
+    color: var(--color-text);
+
+    border-style: solid;
+    border-radius: 1em;
+    border-color: var(--knop-color);
+    text-decoration: none;
+    text-transform: uppercase;
 }

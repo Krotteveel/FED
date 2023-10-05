@@ -36,9 +36,10 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	--color-text: #eee;
+	--color-text: white;
 	--color-background: #eee;
 	--link-visited-color: #f51cca;
+	--knop-color: rosybrown;
 }
 
 /* img {
@@ -78,6 +79,7 @@ select {
 	img {
 		filter: brightness(.5);
 	}
+
 }
 
 /****************/
@@ -89,7 +91,8 @@ header nav:nth-of-type(1) {
 	gap: 1em;
 	position: fixed;
 	width: 100%;
-
+	padding-top: 0.3em;
+	padding-right: 0.3em;
 }
 
 nav a:nth-of-type(1) {
@@ -97,10 +100,23 @@ nav a:nth-of-type(1) {
 }
 
 nav img {
-	width: 4em;
+	width: 5em;
 	margin-left: 1em;
 }
 
+header a:nth-of-type(2) {
+	padding: 0.5em;
+	margin: 0.7em;
+	background-color: var(--knop-color);
+	color: var(--color-text);
+
+	border-style: solid;
+	border-radius: 1em;
+	border-color: var(--knop-color);
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
 
 /****************/
 /* NAV onder */
@@ -161,7 +177,7 @@ header nav ul li a:hover {
 
 header nav ul li a:focus-visible {
 	outline: none;
-	box-shadow: 0 0 0 3px #f51cca;
+	box-shadow: 0 0 0 3px var(--link-visited-color);
 }
 
 header nav ul li a.active {
