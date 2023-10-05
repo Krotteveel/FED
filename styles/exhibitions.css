@@ -21,10 +21,11 @@ section ul {
 }
 
 section ul li {
+    position: relative;
     flex-shrink: 0;
     scroll-snap-align: center;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
 
 }
@@ -38,10 +39,15 @@ section ul li img {
 }
 
 ul li div {
-    position: relative;
+    position: absolute;
     z-index: 75;
     display: block;
     text-align: center;
+    align-self: center;
+    bottom: 15em;
+    color: var(--color-text);
+    padding: 1em;
+    background-color: var(--achter-tekst);
 }
 
 em {
@@ -52,9 +58,34 @@ em {
 
 h2 {
     text-transform: uppercase;
+    margin: 0;
 }
 
-div a {
+#hallo {
+    right: 0em;
+}
+
+main a {
+
+    position: absolute;
+    width: 2em;
+    z-index: 100;
+    padding: 0.5em;
+    margin: 0.7em;
+    background-color: var(--knop-color);
+    color: var(--color-text);
+
+    border-style: solid;
+    border-radius: 1em;
+    border-color: var(--knop-color);
+    text-decoration: none;
+    bottom: 4em;
+}
+
+li div a {
+    bottom: 0;
+    position: relative;
+    width: auto;
     padding: 0.5em;
     margin: 0.7em;
     background-color: var(--knop-color);
@@ -65,4 +96,8 @@ div a {
     border-color: var(--knop-color);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+div p {
+    margin-bottom: 2em;
 }

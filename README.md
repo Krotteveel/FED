@@ -190,10 +190,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - nu aan de slag met 2e pagina-> aanpak section met ul 
 
 </details>
 
@@ -207,19 +204,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/Screenshot 2023-10-05 at 16.51.38.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/Screenshot 2023-10-05 at 16.51.50.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
-
+  - het positioneren van elementen in opzichte van elkaar.
+  - hovers/ mediaqueries/ video gebruiken
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Micro animaties is helaas niet gelukt. Had het graag willen doen, maar door tijdsgebrek niet helemaal gelukt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -235,8 +229,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Code pen van de klas. https://codepen.io/Karlijn-Rotteveel/pen/BavwxZx?editors=1100
+  2. https://codepen.io/Karlijn-Rotteveel/pen/BavqEPP?editors=1100
+  3. Docent en studentenassistenten
+  4. Daarnaast veel opgezocht via css stricks etc. alleen niet letterlijke code overgenomen.
+  5. Ananda: voor film pauze knop.
 
 </details>

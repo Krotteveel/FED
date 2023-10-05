@@ -5,13 +5,19 @@ body {
 }
 
 #pause-button {
-    height: 4em;
-    width: 4em;
+    height: 3em;
+    width: 3em;
     position: relative;
-    top: 6em;
-    color: black;
+    top: 8em;
+    left: 1em;
     z-index: 100;
-    /* background-color: transparent; */
+
+    background-color: var(--knop-color);
+
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* MAIN */
@@ -51,23 +57,26 @@ main>section:nth-of-type(1) div {
     z-index: 50;
     /* width: 100%; */
     height: 100dvh;
-
     pointer-events: none;
     margin: 2em;
     top: 15em;
-
     text-align: center;
     /* display: grid; */
     /* place-content: center;
     place-items: center; */
+
 }
 
 main>section:nth-of-type(1) div h2 {
     text-transform: uppercase;
     color: var(--knop-color);
+    background-color: var(--achter-tekst);
 
 }
 
+main>section:nth-of-type(1) div p {
+    background-color: var(--achter-tekst);
+}
 
 /* alle sections */
 
@@ -91,7 +100,8 @@ main>section:not(:nth-of-type(1)) div {
 
     z-index: 100;
     width: min(calc(100% - 4em), 24em);
-
+    background-color: var(--achter-tekst);
+    padding: 1em;
 }
 
 main>section img {

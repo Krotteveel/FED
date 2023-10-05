@@ -40,6 +40,7 @@
 	--color-background: #eee;
 	--link-visited-color: #f51cca;
 	--knop-color: rosybrown;
+	--achter-tekst: rgba(0, 0, 0, 0.5);
 }
 
 /* img {
@@ -93,6 +94,7 @@ header nav:nth-of-type(1) {
 	width: 100%;
 	padding-top: 0.3em;
 	padding-right: 0.3em;
+	background-image: linear-gradient(rgb(0 0 0 / 0.5), rgba(0 0 0 / 0));
 }
 
 nav a:nth-of-type(1) {

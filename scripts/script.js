@@ -8,11 +8,11 @@ var pauseButton = document.getElementById("pause-button");
 pauseButton.addEventListener("click", function () {
     if (video.paused) {
         video.play();
-        pauseButton.textContent = "⏸️";
+        pauseButton.textContent = "⏸";
         pauseButton.ariaLabel = "video pauzeren";
     } else {
         video.pause();
-        pauseButton.textContent = "▶️";
+        pauseButton.textContent = "▶";
         pauseButton.ariaLabel = "video hervatten";
     }
 });
