@@ -217,7 +217,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
+## Herkansing
 
+<details>
+  <summary>uitwerken voor eindgesprek</summary>
+
+  ### Je uitkomst - karakteristiek screenshots:
+  <img src="readme-images/Screenshot 2023-10-05 at 16.51.38.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/Screenshot 2023-10-05 at 16.51.50.png" width="375px" alt="uitomst opdracht 1">
+
+  ### Dit ging goed/Heb ik geleerd: 
+  Met de extra tijd heb ik veel nieuwe dingen geleerd.
+  - toepassen van gradient in tekst en knoppen
+  - opmaken van select
+  - caption van foto toevoegen
+  - zelf gebruik maken en uitwerken van grid, columns, rows etc
+  - toevoegen van micro animaties -> knoppen die veranderen
+  - toevoegen van extra section die iets meer verschilde van me huidige sections
+  ### Dit was lastig/Is niet gelukt:
+  Had graag nog iets meer met keyframes willen werken en nog meer willen toevoegen. Alleen vond ik dat erg lastig.
+</details>
 
 
 ## Bronnenlijst
@@ -225,14 +244,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
   1. Code pen van de klas. https://codepen.io/Karlijn-Rotteveel/pen/BavwxZx?editors=1100
   2. https://codepen.io/Karlijn-Rotteveel/pen/BavqEPP?editors=1100
   3. Docent en studentenassistenten
   4. Daarnaast veel opgezocht via css stricks etc. alleen niet letterlijke code overgenomen.
   5. Ananda: voor film pauze knop.
+  6. Annika: Voor font-size veranderen.
+  7. Kim / https://www.w3schools.com/tags/tag_figcaption.asp voor caption bij foto
 
 </details>

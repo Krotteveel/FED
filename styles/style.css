@@ -7,7 +7,7 @@
 @font-face {
 	font-family: 'Arizonasans';
 	src: url('../fonts/ABCArizonaSans-Medium-Trial.woff2') format('woff2');
-	font-weight: medium;
+	font-weight: 700;
 }
 
 @font-face {
@@ -81,8 +81,8 @@ select {
 	font: inherit;
 	padding: 0.5em 0.5em;
 	border-radius: 100em;
-	background-color: transparent;
-	color: #eee;
+	background-color: var(--achter-tekst);
+	color: var(--color-text);
 	border: solid;
 }
 
@@ -93,6 +93,12 @@ select {
 	}
 
 }
+
+header section {
+	color: var(--color-text);
+}
+
+
 
 /****************/
 /* NAV boven */
@@ -217,4 +223,5 @@ nav a:nth-of-type(2):hover {
 			rgb(152, 81, 81),
 			rgb(216, 176, 176));
 	padding: 0.75em;
+	transition: 0.5s;
 }
