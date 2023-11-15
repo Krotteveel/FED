@@ -41,6 +41,11 @@
 	--link-visited-color: #f51cca;
 	--knop-color: rosybrown;
 	--achter-tekst: rgba(0, 0, 0, 0.5);
+	--afbeelding-tekst: rgb(142, 142, 142);
+}
+
+html:has([value="big"]:checked) {
+	font-size: 1.3em;
 }
 
 /* img {
@@ -59,6 +64,7 @@
 
 
 
+
 /****************/
 /* Header */
 /****************/
@@ -73,6 +79,11 @@ header {
 
 select {
 	font: inherit;
+	padding: 0.5em 0.5em;
+	border-radius: 100em;
+	background-color: transparent;
+	color: #eee;
+	border: solid;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -89,35 +100,50 @@ select {
 header nav:nth-of-type(1) {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	gap: 1em;
 	position: fixed;
 	width: 100%;
 	padding-top: 0.3em;
 	padding-right: 0.3em;
 	background-image: linear-gradient(rgb(0 0 0 / 0.5), rgba(0 0 0 / 0));
+
 }
+
 
 nav a:nth-of-type(1) {
 	margin-right: auto;
 }
 
 nav img {
-	width: 5em;
+	width: 4em;
 	margin-left: 1em;
 }
 
 header a:nth-of-type(2) {
-	padding: 0.5em;
-	margin: 0.7em;
+	padding: 0.65em;
+
 	background-color: var(--knop-color);
 	color: var(--color-text);
+	background-image: linear-gradient(45deg,
+			rgb(216, 176, 176),
+			rgb(152, 81, 81));
 
-	border-style: solid;
-	border-radius: 1em;
+	/* border-style: solid; */
+	border-radius: 100em;
 	border-color: var(--knop-color);
 	text-decoration: none;
 	text-transform: uppercase;
 
+}
+
+header section {
+	margin-top: 4em;
+	margin-left: 1em;
+}
+
+header section h2 {
+	margin: 0em;
 }
 
 /****************/
@@ -169,7 +195,6 @@ header nav ul li a span {
 		position: static;
 		left: 0;
 	}
-
 }
 
 header nav ul li a:hover {
@@ -185,4 +210,11 @@ header nav ul li a:focus-visible {
 header nav ul li a.active {
 	color: var(--link-visited-color);
 	text-decoration: underline;
+}
+
+nav a:nth-of-type(2):hover {
+	background-image: linear-gradient(45deg,
+			rgb(152, 81, 81),
+			rgb(216, 176, 176));
+	padding: 0.75em;
 }

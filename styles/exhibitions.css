@@ -3,12 +3,12 @@ body {
     height: 100vh;
 }
 
-section {
+section:first-of-type {
     height: 100vh;
     /* position: absolute; */
 }
 
-section ul {
+section:first-of-type ul {
     display: flex;
 
     overflow-x: auto;
@@ -20,7 +20,7 @@ section ul {
 
 }
 
-section ul li {
+section:first-of-type ul li {
     position: relative;
     flex-shrink: 0;
     scroll-snap-align: center;
@@ -30,7 +30,7 @@ section ul li {
 
 }
 
-section ul li img {
+section:first-of-type ul li img {
     position: relative;
     height: 100%;
     width: 100%;
@@ -61,10 +61,6 @@ h2 {
     margin: 0;
 }
 
-#hallo {
-    right: 0em;
-}
-
 main a {
 
     position: absolute;
@@ -72,14 +68,22 @@ main a {
     z-index: 100;
     padding: 0.5em;
     margin: 0.7em;
-    background-color: var(--knop-color);
+    background-image: linear-gradient(45deg,
+            rgb(216, 176, 176),
+            rgb(152, 81, 81));
     color: var(--color-text);
-
-    border-style: solid;
+    border-style: none;
     border-radius: 1em;
     border-color: var(--knop-color);
     text-decoration: none;
     bottom: 4em;
+}
+
+#hallo {
+    right: 0em;
+    background-image: linear-gradient(45deg,
+            rgb(216, 176, 176),
+            rgb(152, 81, 81));
 }
 
 li div a {
@@ -88,10 +92,11 @@ li div a {
     width: auto;
     padding: 0.5em;
     margin: 0.7em;
-    background-color: var(--knop-color);
+    background-image: linear-gradient(45deg,
+            rgb(216, 176, 176),
+            rgb(152, 81, 81));
     color: var(--color-text);
-
-    border-style: solid;
+    border-style: none;
     border-radius: 1em;
     border-color: var(--knop-color);
     text-decoration: none;
@@ -101,3 +106,85 @@ li div a {
 div p {
     margin-bottom: 2em;
 }
+
+div:nth-of-type(1) a:hover {
+    background-image: linear-gradient(45deg,
+            rgb(152, 81, 81),
+            rgb(216, 176, 176));
+    padding: 0.6em;
+}
+
+div:nth-of-type(1) #hallo:hover {
+    background-image: linear-gradient(45deg,
+            rgb(152, 81, 81),
+            rgb(216, 176, 176));
+    padding: 0.6em;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section:nth-of-type(2) img:first-of-type {
+    max-width: 60%;
+    /* margin-top: 2em; */
+    border-radius: 1em;
+}
+
+section:nth-of-type(2) {
+    padding-top: 0.5em;
+    margin: 2em;
+    padding-bottom: 5em;
+
+}
+
+section:nth-of-type(2) h2 {
+    background-image: linear-gradient(12deg,
+            rgb(152, 81, 81),
+            rgb(213, 174, 174),
+            rgb(152, 81, 81));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+
+em {
+    font-style: italic;
+}
+
+section:nth-of-type(2) div {
+    border-left: solid;
+    color: var(--afbeelding-tekst);
+
+}
+
+section:nth-of-type(2) div p {
+    margin: 0.2em;
+    margin-left: 1em;
+    font-size: small;
+}
+
+section:nth-of-type(2) img:nth-of-type(2) {
+    margin-top: 2em;
+    max-width: 100%;
+    /* margin-top: 2em; */
+    border-radius: 1em;
+}
+
+/* @keyframes text-animation {
+    0% {
+        transform: rotate(-8deg);
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        transform: rotate(8deg);
+    }
+} */

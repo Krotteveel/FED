@@ -17,3 +17,14 @@ pauseButton.addEventListener("click", function () {
     }
 });
 
+
+
+
+// var menuButton = document.querySelector("header > button");
+// var hetMenu = document.querySelector("nav");
+
+// menuButton.onclick = toggleMenu;
+
+// function toggleMenu (){
+//   hetMenu.classList.toggle ("open");
+// }
