@@ -161,6 +161,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Niet alle img hadden een alt -> later wel toegevoed
+  - Media moest nog op pauze kunnen -> later gedaan
+  - aantal focus states miste -> toegevoegd
+  - Bij het aangeven van de state van de pagina was er alleen kleur gebruikt, dat mag niet -> nu streep erbij gedaan
+  - Contrast te laag -> tekst slecht te lezen
+  - screenreader ging nog niet over alels netjes heen.
+
+verbeterd ten opzichte van bestaande website
+- vlakken tussen de tekst en afbeelding waardoor de tekst beter te lezen is (contrast)
+- de video kan op pauze
+- active state verduidelijkt
+- onzichtbare H1 toegevoegd voor screen reader en zoveel mogelijk een duidelijke naam te geven ( link / h / etc)
+
+Wat kon nog beter?
+- Screen reader leest pijltjes en dat is onnodig. Volgende keer ervoor zorgen dat die niet mee genomen worden door een Aria atrribute. 
+- Figcaption moet zich nestelen in figure en dan zijn ptjes ook niet nodig
+- Als je er eigenlijk op hoort te klikken moet het wel een A zijn (lijstje onderaan exhibitons)
 
 </details>
 
@@ -223,8 +240,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/Screenshot 2023-10-05 at 16.51.38.png" width="375px" alt="uitomst opdracht 1">
-<img src="readme-images/Screenshot 2023-10-05 at 16.51.50.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/scherm1.png" width="375px" alt="uitomst herkansing">
+<img src="readme-images/scherm2.png" width="375px" alt="uitomst herkansing">
+<img src="readme-images/scherm2.2.png" width="375px" alt="uitomst herkansing">
 
   ### Dit ging goed/Heb ik geleerd: 
   Met de extra tijd heb ik veel nieuwe dingen geleerd.
